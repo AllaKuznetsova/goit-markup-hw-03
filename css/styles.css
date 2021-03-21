@@ -79,7 +79,13 @@ body {
     margin: 0;
     padding: 0;
 }
+/* главный первый экран */
 
+.headline{
+    background-color:#2F303A; 
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
 
 .headline-title{
     margin-top: 0;
@@ -96,7 +102,11 @@ body {
 
 }
 
-/* sectio */
+/* второй экран */
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .section-title{
     margin-top: 0;
     margin-bottom: 10px;
