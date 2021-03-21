@@ -1,0 +1,137 @@
+
+
+
+
+
+:root{
+    --primary-text-color:#212121;
+    --title-text-color:#757575;
+    --accent-color:#2196F3;
+    --second-accent-color:#FFFFFF;
+    --third-accent-color:#F5F4FA;
+}
+
+/* цвет основного текста #212121 */
+/* вторичный цвет  #757575 */
+/*акцент #2196F3 */
+/* белый #FFFFFF */
+
+body {
+    background-color:var(--second-accent-color);
+    color:var(--title-text-color);
+    font-style: normal;
+    font-size: 14px;
+    font-family: 'Roboto','Arial', 'Helvetica', sans-serif; 
+    font-weight: 500;
+    line-height: 1.14;
+}
+
+/* logo */
+.logo{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color:#000;
+    text-decoration: none;
+}
+
+.web{ 
+    color:var(--accent-color);
+}
+
+.link{
+    text-decoration: none;
+    color: var(--primary-text-color);
+
+}
+.link:hover{
+    color:var(--accent-color);
+}
+.link-address{
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+.contact{
+    color:var(--title-text-color);
+}
+.list{
+    list-style: none;
+}
+
+
+.headline-title{
+
+    color:var(--second-accent-color); 
+    background-color:#2F303A; ;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+}
+
+/* sectio */
+.section-title{
+    color:var(--primary-text-color) ;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+
+
+
+.section-features{
+    color:var(--primary-text-color) ;
+    
+font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+/* Button */
+
+
+.button{
+    text-decoration: none;
+    color:var(--primary-text-color);
+}
+
+.primary-btn{
+    background-color:var(--accent-color);
+    color: var(--second-accent-color);
+}
+
+.button:hover,
+.button:focus{
+    color:var(--second-accent-color);
+    background-color:var(--accent-color);
+}
+
+.pointer {
+    cursor: pointer;
+  }
+
+/* footer */
+
+.footer{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color:#000;
+    text-decoration: none;
+    
+}
+
+.footer-address{
+    background-color: #2F303A;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--second-accent-color);
+}
