@@ -290,13 +290,7 @@ margin-left: auto;
     font-style: normal;
     
 }
-.secondary{
-    background-color: #2F303A;
-    padding-top: 60px;
-    padding-bottom: 60px;
 
-
-}
 .footer-address{
   
     font-weight: 400;
@@ -304,4 +298,7 @@ margin-left: auto;
     line-height: 1.71;
     color: var(--second-accent-color);
     font-style: normal;
+}
+.section-third{
+    background-color: #2F303A;
 }
